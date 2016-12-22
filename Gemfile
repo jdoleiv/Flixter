@@ -39,4 +39,5 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 gem 'rails_12factor', group: :production
 gem 'bootstrap-sass', '~> 3.3.6'
-
+gem 'simple_form'
+gem 'devise', '>= 3.2.4'
