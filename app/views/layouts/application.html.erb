@@ -5,10 +5,13 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <link href="http://vjs.zencdn.net/5.11.7/video-js.css" rel="stylesheet">
+  <script src="http://vjs.zencdn.net/5.11.7/video.js"></script>
+  <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
 </head>
 <body>
 
-<div class="wrap">
+<div id="wrap">
   <nav class="navbar navbar-inverse" role="navigation">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
