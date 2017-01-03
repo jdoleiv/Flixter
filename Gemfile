@@ -41,3 +41,8 @@ gem 'rails_12factor', group: :production
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'simple_form'
 gem 'devise', '>= 3.2.4'
+gem 'carrierwave', '~> 1.0'
+gem "figaro"
+gem "fog"
+gem 'mini_magick', '~> 4.3.1'
+
