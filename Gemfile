@@ -46,3 +46,4 @@ gem "figaro"
 gem 'mini_magick', '~> 4.3.1'
 gem 'carrierwave-aws'
 gem 'stripe'
+gem 'ranked-model'
