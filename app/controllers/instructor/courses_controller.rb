@@ -20,6 +20,12 @@ class Instructor::CoursesController < ApplicationController
     @lesson = Lesson.new
   end
 
+  def destroy
+    @course = Course.find(params[:id])
+    @course.destroy
+
+    redirect_to root_path
+  end
 
   private
 
